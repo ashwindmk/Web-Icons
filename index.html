@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Icons</title>
+        <link rel="stylesheet" href="main.css"/>
+
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/> -->
+        <link rel="stylesheet" href="google-material-icons.css"/>
+
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>-->
+        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+
+        <!--<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>-->
+
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css"/>
+
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>-->
+        <script src="jquery-1.12.2.min.js"></script>
+
+        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    <div class="container-fluid">
+        <article>
+            <h2><b>CSS Image Icons</b></h2>
+
+            <p>Envelope image icon:
+                <img src="images/envelope.svg"/>
+            </p>
+
+            <p>Envelope image icon with specified size:
+                <img src="images/envelope.svg" style="width: 45px; height:45px;"/>
+            </p>
+
+            <p>Share image icon in text input:
+                <input type="text" src="images/share.svg" placeholder="search" style="height: 35px; background: url(images/share.svg) no-repeat scroll 2px 2px; padding-left:35px;"/>
+            </p>
+
+            <p>Fb image icon on button:
+                <button style="padding: 8px 8px 8px 32px; background: #F0F0F0 url(images/fb.png); background-position: 8px 8px; background-repeat: no-repeat;">
+                    Facebook
+                </button>
+            </p>
+        </article>
+        <article>
+            <h2><b>Google Icons</b></h2>
+
+            <p>Router icon:
+                <i class="material-icons">router</i>
+            </p>
+
+            <p>Router icon with specified size:
+                <i class="material-icons" style="font-size:36px">router</i>
+            </p>
+
+            <p>Router icon with specified size and color:
+                <i class="material-icons" style="font-size:48px;color:red">router</i>
+            </p>
+
+            <p>Router icon on a button:
+                <button>Button
+                    <i class="material-icons">router</i>
+                </button>
+            </p>
+
+            <p>Router unicode:
+                <i class="material-icons">&#xe328;</i>
+            </p>
+        </article>
+        <article>
+            <h2><b>Bootstrap Glyph Icons</b></h2>
+
+            <p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+
+            <p>Envelope icon as a link:
+                <a href="#">
+                    <span class="glyphicon glyphicon-envelope"></span>
+                </a>
+            </p>
+
+            <p>Envelope icon on a button:
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-envelope"></span> Envelope
+                </button>
+            </p>
+
+            <p>Envelope icon on a styled link button:
+                <a href="#" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-envelope"></span> Envelope
+                </a>
+            </p>
+
+            <p>Envelope unicode:
+                <span class="glyphicon">&#x2709;</span>
+            </p>
+
+            <p>
+                <form class="form-inline" role="form">User icon in success feedback input:
+                    <div class="form-group has-success has-feedback">
+                        <label class="control-label" for="inputSuccess"></label>
+                        <input type="text" class="form-control" id="inputSuccess" placeholder="Username">
+                        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                    </div>
+                </form>
+            </p>
+
+            <p>
+                <form class="form-inline" role="form">User icon in text input:
+                    <div class="form-group has-feedback">
+                        <label class="control-label">Username</label>
+                        <i class="glyphicon glyphicon-user form-control-feedback"></i>
+                        <input type="text" class="form-control" id="inputSuccess">
+                    </div>
+                </form>
+            </p>
+
+            <p>
+                <form class="form-inline" role="form">Search icon in search box:
+                    <div class="form-group">
+                        <label class="control-label"></label>
+                        <div class="inner-addon right-addon">
+                            <i class="glyphicon glyphicon-search"></i>
+                            <input type="text" class="form-control" placeholder="Search" />
+                        </div>
+                    </div>
+                </form>
+            </p>
+
+            <p>
+                <form class="form-inline" role="form">User icon right-align in text input:
+                    <div class="form-group">
+                        <label class="control-label"></label>
+                        <div class="inner-addon left-addon">
+                            <i class="glyphicon glyphicon-user"></i>
+                            <input type="text" class="form-control" placeholder="Username" />
+                        </div>
+                    </div>
+                </form>
+            </p>
+        </article>
+
+        <article>
+            <h2><b>Font-Awesome Icons</b></h2>
+
+            <p>
+                <div class="icon">Car icon:
+                    <i class="fa fa-car"></i>
+                </div>
+            </p>
+
+            <p>
+                <div class="icon">Car icon with specified size:
+                    <i class="fa fa-car" style="font-size:48px;"></i>
+                </div>
+            </p>
+
+            <p>
+                <div class="icon">Car icon with specified size and color:
+                    <i class="fa fa-car" style="font-size:60px;color:red;"></i>
+                </div>
+            </p>
+        </article>
+
+        <p>Delete icon in button:
+            <a class="btn btn-danger" href="#">
+                <i class="fa fa-trash-o fa-lg"></i> Delete
+            </a>
+        </p>
+
+        <p>Settings icon in button:
+            <a class="btn btn-default btn-sm" href="#">
+                Settings <i class="fa fa-cog"></i>
+            </a>
+        </p>
+
+        <p>Flag icon in button:
+            <a class="btn btn-lg btn-success" href="#">
+                <i class="fa fa-flag fa-2x pull-left"></i>Font Awesome<br>Version 4.7.0
+            </a>
+        </p>
+
+        <p>Align icons:
+            <div class="btn-group">
+                <a class="btn btn-default" href="#">
+                    <i class="fa fa-align-left" title="Align Left"></i>
+                </a>
+
+                <a class="btn btn-default" href="#">
+                    <i class="fa fa-align-center" title="Align Center"></i>
+                </a>
+
+                <a class="btn btn-default" href="#">
+                    <i class="fa fa-align-right" title="Align Right"></i>
+                </a>
+
+                <a class="btn btn-default" href="#">
+                    <i class="fa fa-align-justify" title="Align Justify"></i>
+                </a>
+            </div>
+        </p>
+
+        <p>
+            <form class="form-inline" role="form">Envelope icon with background in text input:
+                <div class="input-group margin-bottom-sm">
+                    <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+                    <input class="form-control" type="text" placeholder="Email address">
+                </div>
+            </form>
+        </p>
+
+        <p>
+            <form class="form-inline" role="form">Key icon with background in text input:
+                <div class="input-group margin-bottom-sm">
+                    <input class="form-control" type="password" placeholder="Password">
+                    <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                </div>
+            </form>
+        </p>
+
+        <p>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Simple Dropdown
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">JavaScript</a></li>
+                </ul>
+            </div>
+        </p>
+
+        <p>Icons in dropdown list:
+            <div class="btn-group margin-bottom-sm">
+                <a class="btn btn-primary" href="#">
+                    <i class="fa fa-user fa-fw"></i> User
+                </a>
+                <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
+                    <span class="fa fa-caret-down" title="Toggle dropdown menu"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class="fa fa-pencil fa-fw"></i> Edit</a></li>
+                    <li><a href="#"><i class="fa fa-trash-o fa-fw"></i> Delete</a></li>
+                    <li><a href="#"><i class="fa fa-ban fa-fw"></i> Ban</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#"><i class="fa fa-unlock"></i> Make admin</a></li>
+                </ul>
+            </div>
+        </p>
+
+    </div>
+    </body>
+</html>
